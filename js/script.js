@@ -1,4 +1,5 @@
 const canvas = document.getElementById('canvas');
+const rules = document.getElementById('rules');
 const ctx = canvas.getContext('2d');
 
 const player_size = 18;
@@ -1164,4 +1165,7 @@ document.onkeydown = function(e){
                 game_pause = false;
         }
     }
+}
+rules.onclick = function(){
+    window.open("https://github.com/SpiritSoda/JSDash/blob/main/README.md");
 }

@@ -17,3 +17,16 @@ body{
     min-height: 100vh;
     margin: 0;
 }
+.rules-btn {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+.btn {
+    cursor: pointer;
+    border: 0;
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+}    
